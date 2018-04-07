@@ -107,7 +107,7 @@ Button Styling
 .entry-content .more-link:before {
 	margin-top: 0;
 }
-a.more-link {
+a.more-link, #sb_instagram #sbi_load .sbi_load_btn {
 	background-color: #767676;
     border: 0;
     -webkit-border-radius: 2px;
@@ -117,19 +117,23 @@ a.more-link {
     color: #fff;
     cursor: pointer;
     display: inline-block;
-    font-size: 14px;
-    font-size: 0.875rem;
-    font-weight: 800;
-    line-height: 1;
-    padding: 1em 2em;
     text-shadow: none;
     -webkit-transition: background 0.2s;
     transition: background 0.2s;
 }
 
-a.more-link:hover {
+a.more-link {
+	font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1;
+    padding: 1em 2em;
+}
+
+a.more-link:hover, #sb_instagram #sbi_load .sbi_load_btn:hover {
 	background-color: #333;
 	color: #fff;
+	opacity: 1;
 }
 
 .entry-content a, .entry-content a:hover {
