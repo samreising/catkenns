@@ -21,6 +21,13 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
  */
 add_post_type_support( 'page', 'excerpt' );
 
+
+/**
+ * Make shortcodes work in excerpt
+ */
+add_filter( 'the_excerpt', 'shortcode_unautop');
+add_filter( 'the_excerpt', 'do_shortcode');
+
 /**
  * Enqueue Fonts
  */
