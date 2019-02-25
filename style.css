@@ -136,9 +136,11 @@ a.more-link:hover, #sb_instagram #sbi_load .sbi_load_btn:hover {
 	opacity: 1;
 }
 
+/*
 .entry-content a, .entry-content a:hover {
 	box-shadow: none;
 }
+*/
 
 /* Submit Form Button */
 button, input[type="button"], input[type="submit"] {
