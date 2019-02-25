@@ -10,5 +10,5 @@
 
 ?>
 <div class="site-info">
-	<?php echo '&copy; Copyright ' . date(Y) . ' Cat Kenns. All Rights Reserved.' ;?>
+	<?php echo '&copy; Copyright ' . date(Y) . ' Catherine Kennedy. All Rights Reserved.' ;?>
 </div><!-- .site-info -->
